@@ -133,11 +133,11 @@ class _TarjetaBotones extends StatelessWidget {
           RawMaterialButton(
             materialTapTargetSize: MaterialTapTargetSize.padded,
             onPressed: _launchURL,
-            fillColor: Colors.blue,
+            fillColor: Colors.red,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
             ),
-            child: Icon(Icons.more),
+            child: Icon(Icons.more_horiz),
           ),
         ],
       ),

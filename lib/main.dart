@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-          title: 'Material App',
+          title: 'News App',
           theme: miTema,
           debugShowCheckedModeBanner: false,
           home: TabsPage()),
