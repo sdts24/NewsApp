@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/src/pages/tab1_page.dart';
 import 'package:newsapp/src/pages/tab2_pages.dart';
-import 'package:newsapp/src/services/news_service.dart';
 import 'package:provider/provider.dart';
 
 class TabsPage extends StatelessWidget {
@@ -30,13 +29,13 @@ class _Navegacion extends StatelessWidget {
             icon: Icon(
               Icons.person_outline,
             ),
-            title: Text("Para Ti"),
+            title: Text("Find Out"),
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.public,
             ),
-            title: Text("Encabezados"),
+            title: Text("Head"),
           ),
         ]);
   }
